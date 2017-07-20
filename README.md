@@ -26,7 +26,7 @@
 1. `git stash` will put your changes in a sort of "holding area" to prevent merging issues.
 1. `git pull` to get any changes made to the repo since you cloned/pulled it.
 1. If none of the new files are files you have changed locally, `git stash apply` - Apply your changes from the holding area to the updated files.
-1. `git add -a` - Git will only `add` changed files so doing this in the root is a nice quick way of staging everything in one go.
+1. `git add .` - Git will only `add` changed files so doing this in the root is a nice quick way of staging everything in one go.
 1. `git commit -m "Updated the credentials"` - This is where you justify the reason for putting these files into the repo. In an ideal world, the message should be no longer than a tweet and contain your ticket number. In the real world, _"changes"_ or _"amends"_ are frequently used.
 1. `git push origin master` - Because we haven't made any breaking changes to the codebase (this is basically your initial commit), we can use this command. This will put your changed files into the remote repo on the master branch.
 
@@ -44,8 +44,11 @@
 1. Edit the _background color_
 1. Check the changes are reflected in browser
 1. `git diff` to see your changes to make sure nothing untoward has happened.
-1. `git commit -a -m "Changed the background color"`
-1. `git checkout master`
+1. `git stash && git pull`
+1. No changes? `git stash apply`
+1. `git add .` to stage your changes
+1. `git commit -m "Changed the background color"`
+1. `git checkout master` - very important!
 1. `git merge hotfix`
 
 
