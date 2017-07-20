@@ -42,6 +42,8 @@
 ## Sprint 2 - Advanced Gittery
 1. `git checkout -b hotfix`
 1. Edit the _background color_
+1. Check the changes are reflected in browser
+1. `git diff` to see your changes to make sure nothing untoward has happened.
 1. `git commit -a -m "Changed the background color"`
 1. `git checkout master`
 1. `git merge hotfix`
