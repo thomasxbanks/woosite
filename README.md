@@ -3,7 +3,7 @@
 ## Sprint Zero - Setting up your environment.
 
 1. Download a text editor (Atom, VSCode, Sublime Text). I recommend Atom because I'm most comfortable with it but the choice is yours. They all have pros and cons.
-1. Download GitHub desktop. This will give you bash commands in windows - bash is used on linux (Apache) servers so is good to learn.
+1. Download GitHub desktop. This will allow you to install __GitShell__ which will give you bash commands in windows - bash is used on linux (Apache) servers so is good to learn.
 1. Download GitKraken. This is optional but can be useful for visual git learning and dealing with complicated merges.
 1. Customise text editor (Pick a theme you are comfortable looking at for a long time. Colours indicate different functions of lines of code - called syntax highlighting. This will give you an idea of any mismatches or errors. My sync settings for Atom in gist)
 1. Open GitBash and navigate to where you want to keep your projects. Use the bash commands: `cd` and `ls` to find your way around. __Pro Tip:__ `ls -asl` __lists things in a much better way than just__ `ls`
@@ -64,3 +64,7 @@
 ## Sprint _n_ - Deploying to a server
 1. Server
 1. DNS, CNAME, A Records
+
+_____
+
+Congratulations! You are a front-end developer!
