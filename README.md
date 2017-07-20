@@ -42,16 +42,11 @@
 ## Sprint 2 - Advanced Gittery
 1. `git checkout -b hotfix`
 1. Edit the _background color_
-1. `git diff` to see your changes to make sure nothing untoward has happened.
 1. `git commit -a -m "Changed the background color"`
 1. `git checkout master`
 1. `git merge hotfix`
-1. Open GitKraken to see your changes in the pretty tree.
+
 
 ## Sprint _n_ - Deploying to a server.
 1. Server
 1. DNS, CNAME, A Records
-
-_____
-
-FIN.
