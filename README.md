@@ -50,7 +50,8 @@
 1. `git commit -m "Changed the background color"`
 1. `git checkout master` - very important!
 1. `git merge hotfix`
-
+1. Add your merge message to explain why you need to merge the two branches.
+1. `git push origin master` to send the new stuff up to the repo
 
 ## Sprint _n_ - Deploying to a server.
 1. Server
